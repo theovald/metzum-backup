@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Det er på tide å ta ansvar</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <main class="inn">
+        <h1 class="inn__tittel">Det er på tide å ta ansvar</h1>
+        <form class="inn__skjema" id="skjema">
+            <label for="passord">Passord</label>
+            <input id="passord" type="password" autocomplete="current-password" autofocus>
+            <button type="submit">Åpne</button>
+        </form>
+        <p class="inn__melding" id="melding" role="status"></p>
+        <nav class="inn__valg" id="valg" hidden>
+            <a href="deck/presenter.html">Presentervisning</a>
+            <a href="deck/index.html">Bare slidene</a>
+        </nav>
+    </main>
+    <script src="felles.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
